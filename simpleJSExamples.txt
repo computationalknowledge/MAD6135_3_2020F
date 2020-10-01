@@ -1,0 +1,8 @@
+that adds the numbers from 100 to 1
+skip down by 7 each time
+output the SUM of all the numbers you stepped over
+100 + 93 + 86 + 79 
+
+for ( a ;  ; c ){
+    console.log("Help! I am stuck in an infinite loop!!!")
+}
