@@ -6,3 +6,8 @@ output the SUM of all the numbers you stepped over
 for ( a ;  ; c ){
     console.log("Help! I am stuck in an infinite loop!!!")
 }
+
+
+for (console.log("Hello Peanut!");; console.log("goodbye Peanut")) {
+    console.log("Help! I am stuck in an infinite loop!!!")
+}
