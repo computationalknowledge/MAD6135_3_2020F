@@ -11,3 +11,23 @@ for ( a ;  ; c ){
 for (console.log("Hello Peanut!");; console.log("goodbye Peanut")) {
     console.log("Help! I am stuck in an infinite loop!!!")
 }
+
+
+final working version of the program: Please get this running in your environment!
+
+//that adds the numbers from 100 to 1
+//skip down by 7 each time
+//output the SUM of all the numbers you stepped over
+
+var counter = 100;
+// counter++;
+var animal = "LION";
+animal++;
+var sum = 0;
+const stepDownNumber = 7;
+for (; counter >= 1;) {
+    sum += counter;
+    counter -= stepDownNumber;
+}
+
+console.log("the sum is ", sum);
