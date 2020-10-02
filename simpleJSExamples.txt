@@ -31,3 +31,24 @@ for (; counter >= 1;) {
 }
 
 console.log("the sum is ", sum);
+
+// here is the same but with WHILE 
+
+//that adds the numbers from 100 to 1
+//skip down by 7 each time
+//output the SUM of all the numbers you stepped over
+// this is a change make outside of vsc
+
+
+var counter = 100;
+// counter++;
+var animal = "LION";
+animal++;
+var sum = 0;
+const stepDownNumber = 7;
+while (counter >= 1) {
+    sum += counter;
+    counter -= stepDownNumber;
+}
+
+console.log("the sum is ", sum);
